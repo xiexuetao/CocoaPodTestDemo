@@ -117,8 +117,8 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
-   spec.framework = "Foundation"
-   spec.vendored_frameworks = "RXTestSDK.framework"
+   spec.frameworks = "Foundation"
+   spec.vendored_frameworks = "Frameworks/RXTestSDK.framework"
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
