@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "RXTestSDK"
-  spec.version      = "1.0.2"
+  spec.version      = "1.0.1"
   spec.summary      = "我是SDK描述，我是SDK描述，我是SDK描述，我是SDK描述，我是SDK描述。"
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/xiexuetao/CocoaPodTestDemo.git", :tag => "1.0.2" }
+  spec.source       = { :git => "https://github.com/xiexuetao/CocoaPodTestDemo.git", :tag => "1.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,10 +91,10 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "*.{h,m}"
-  #spec.exclude_files = "Classes/Exclude"
+#spec.source_files  = "**/*.{h,m}"
+#spec.exclude_files = "Classes/Exclude"
 
-   spec.public_header_files = "*.h"
+  # spec.public_header_files = "Classes/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
